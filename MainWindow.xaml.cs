@@ -25,8 +25,15 @@ namespace _41PVlasov_Exzamen
         public MainWindow()
         {
             InitializeComponent();
-            LoadPage.MainFrame = FrameMain;
-            FrameMain.Navigate(new ListBookPage());
+            try
+            {
+                LoadPage.MainFrame = FrameMain;
+                FrameMain.Navigate(new ListBookPage());
+            }
+            catch
+            {
+                
+            }
         }
     }
 }
