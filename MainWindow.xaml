@@ -12,6 +12,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBlock Text="Книжный магазин" FontSize="18" HorizontalAlignment="Center"/>
-        <Frame Name="FrameMain" Grid.Row="1"/>
+        <Frame Name="FrameMain" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>

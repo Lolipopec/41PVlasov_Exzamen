@@ -95,7 +95,7 @@ namespace _41PVlasov_Exzamen.Pages
 
         private void GoBucket_Click(object sender, RoutedEventArgs e)
         {
-
+            LoadPage.MainFrame.Navigate(new BusketPage(Busket));
         }
     }
 }
