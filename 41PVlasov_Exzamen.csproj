@@ -190,5 +190,11 @@
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DLL\DLL.csproj">
+      <Project>{0b28fa70-148f-467a-a15a-10d1ffeaf5ec}</Project>
+      <Name>DLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
